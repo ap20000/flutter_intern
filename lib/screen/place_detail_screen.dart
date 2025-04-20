@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:week_1/model/place_model.dart';
 
 class PlaceDetailScreen extends StatelessWidget {
-  final Map<String, String> place;
+  final Place place;
 
   const PlaceDetailScreen({super.key, required this.place});
 
@@ -21,7 +22,7 @@ class PlaceDetailScreen extends StatelessWidget {
                       bottomRight: Radius.circular(30),
                     ),
                     child: Image.network(
-                      place['image']!,
+                      place.image,
                       height: 300,
                       width: double.infinity,
                       fit: BoxFit.cover,
@@ -60,7 +61,7 @@ class PlaceDetailScreen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            place['title']!,
+                            place.title,
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 20,
@@ -80,7 +81,7 @@ class PlaceDetailScreen extends StatelessWidget {
                                   ),
                                   const SizedBox(width: 5),
                                   Text(
-                                    place['location']!,
+                                    place.location,
                                     style: const TextStyle(
                                       color: Colors.white70,
                                       fontSize: 12,
