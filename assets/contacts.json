@@ -1,0 +1,10 @@
+[
+  { "name": "Alice Smith", "phone": "9876543210" },
+  { "name": "Bob Johnson", "phone": "9876543210" },
+  { "name": "Alice Smith", "phone": "1234567890" },
+  { "name": "Charlie White", "phone": "5554443333" },
+  { "name": "Daniel Craig", "phone": "4443332222" },
+  { "name": "Alicia Keys", "phone": "9998887777" },
+  { "name": "Ali Khan", "phone": "2223334444" },
+  { "name": "Charlie Brown", "phone": "5554443333" }
+]
